@@ -1,11 +1,8 @@
 import React from "react";
+import AboutContainer from "../components/AboutContainer";
 
 function About() {
-  return (
-    <div>
-      <h1>Nice To Meet You!</h1>
-    </div>
-  );
+  return <AboutContainer />;
 }
 
 export default About;
