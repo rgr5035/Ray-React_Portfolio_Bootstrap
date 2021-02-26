@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProjectCard from "../components/Project";
 import Projects from "../project";
-import { propTypes } from "react-bootstrap/esm/Image";
 
 export default function Portfolio() {
   return (
@@ -25,8 +24,6 @@ export default function Portfolio() {
           />
         );
       })}
-
-      <ProjectCard />
     </Container>
   );
 }

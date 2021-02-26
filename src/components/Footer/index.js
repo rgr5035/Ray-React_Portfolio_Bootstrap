@@ -12,21 +12,21 @@ export default function PortfolioFooter() {
       style={{ display: "flex", justifyContent: "center" }}
     >
       <Nav>
-        <Nav.Item className=" pr-1 pl-1">
+        <Nav.Item className=" pr-2 pl-2">
           <Nav.Link
             href="https://www.linkedin.com/in/robertgordonray/"
             className="fab fa-linkedin fa-2x"
             target="_blank"
           ></Nav.Link>
         </Nav.Item>
-        <Nav.Item className=" pr-1 pl-1">
+        <Nav.Item className=" pr-2 pl-2">
           <Nav.Link
             href="https://github.com/rgr5035"
             className="fab fa-github fa-2x"
             target="_blank"
           ></Nav.Link>
         </Nav.Item>
-        <Nav.Item className=" pr-1 pl-1">
+        <Nav.Item className=" pr-2 pl-2">
           <Nav.Link
             href="https://www.facebook.com/robert.r.ray.98"
             className="fab fa-facebook fa-2x"

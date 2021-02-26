@@ -16,12 +16,20 @@ export default function ProjectCard(props) {
         <h5 className="p-2 text-center">{props.desc}</h5>
         <ListGroup variant="flush">
           <ListGroup.Item>
-            <Nav.Link href={props.hrefGH} className="text-center">
+            <Nav.Link
+              href={props.hrefGH}
+              target="_blank"
+              className="text-center"
+            >
               GitHub
             </Nav.Link>
           </ListGroup.Item>
           <ListGroup.Item>
-            <Nav.Link href={props.hrefLS} className="text-center">
+            <Nav.Link
+              href={props.hrefLS}
+              target="_blank"
+              className="text-center"
+            >
               Live Site
             </Nav.Link>
           </ListGroup.Item>

@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Headshot from "./headshot2.jpg";
+import ListGroup from "react-bootstrap/ListGroup";
 
 export default function AboutContainer() {
   return (
@@ -19,9 +20,16 @@ export default function AboutContainer() {
             src={Headshot}
             roundedCircle
             width="100%"
-            className="shadow-lg p-1 align-center"
+            className="shadow p-1 align-center mb-3"
           />
-          <h3>Robby Ray</h3>
+          <ListGroup variant="flush" className="mb-4">
+            <ListGroup.Item>
+              <h5>Robby Ray | Full Stack Web Developer</h5>
+            </ListGroup.Item>
+            <ListGroup.Item>
+              <h5>rgr5035@gmail.com</h5>
+            </ListGroup.Item>
+          </ListGroup>
         </Col>
         <Col lg={1}></Col>
         <Col lg={7} className="shadow-lg rounded">
