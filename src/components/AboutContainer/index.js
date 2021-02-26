@@ -24,10 +24,10 @@ export default function AboutContainer() {
           />
           <ListGroup variant="flush" className="mb-4">
             <ListGroup.Item>
-              <h5>Robby Ray | Full Stack Web Developer</h5>
+              <h5>Robby Ray</h5>
             </ListGroup.Item>
             <ListGroup.Item>
-              <h5>rgr5035@gmail.com</h5>
+              <h5>Full Stack Web Developer</h5>
             </ListGroup.Item>
           </ListGroup>
         </Col>
