@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import PDF from "./RR.CV.2021.INT.pdf";
+import "./style.css";
 
 export default function PortfolioNavBar() {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark" className="shadow-lg">
+    <Navbar bg="dark" expand="lg" variant="dark" className="shadow-lg navbar">
       <Navbar.Brand href="/about">Robby Ray</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

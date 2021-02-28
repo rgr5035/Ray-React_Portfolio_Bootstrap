@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import ListGroup from "react-bootstrap/ListGroup";
 import Nav from "react-bootstrap/Nav";
+import "./style.css";
 
 export default function ProjectCard(props) {
   return (
@@ -30,7 +31,7 @@ export default function ProjectCard(props) {
               target="_blank"
               className="text-center"
             >
-              Live Site
+              Live Demo
             </Nav.Link>
           </ListGroup.Item>
         </ListGroup>
