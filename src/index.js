@@ -6,7 +6,7 @@ import "./style.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App basename={process.env.PUBLIC_URL} />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
