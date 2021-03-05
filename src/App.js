@@ -14,7 +14,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={About} />
+          <Route
+            exact
+            path="/Ray-React_Portfolio_Bootstrap"
+            component={About}
+          />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
