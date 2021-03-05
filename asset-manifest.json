@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ray-React_Portfolio_Bootstrap/static/css/main.7756754a.chunk.css",
-    "main.js": "/Ray-React_Portfolio_Bootstrap/static/js/main.12c7f553.chunk.js",
-    "main.js.map": "/Ray-React_Portfolio_Bootstrap/static/js/main.12c7f553.chunk.js.map",
+    "main.js": "/Ray-React_Portfolio_Bootstrap/static/js/main.a4276b02.chunk.js",
+    "main.js.map": "/Ray-React_Portfolio_Bootstrap/static/js/main.a4276b02.chunk.js.map",
     "runtime-main.js": "/Ray-React_Portfolio_Bootstrap/static/js/runtime-main.ea939f01.js",
     "runtime-main.js.map": "/Ray-React_Portfolio_Bootstrap/static/js/runtime-main.ea939f01.js.map",
     "static/css/2.150d169a.chunk.css": "/Ray-React_Portfolio_Bootstrap/static/css/2.150d169a.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.82ee9eaa.chunk.js",
     "static/css/main.7756754a.chunk.css",
-    "static/js/main.12c7f553.chunk.js"
+    "static/js/main.a4276b02.chunk.js"
   ]
 }
